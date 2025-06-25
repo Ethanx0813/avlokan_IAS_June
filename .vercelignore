@@ -67,4 +67,7 @@ Images/
 
 # Git files
 .git/
-.gitignore 
+.gitignore
+
+# Vercel cache
+.vercel/ 
