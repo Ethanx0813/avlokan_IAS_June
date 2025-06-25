@@ -1,0 +1,19 @@
+{
+  "name": "avlokanias-platform",
+  "version": "1.0.0",
+  "description": "UPSC preparation platform with answer writing and evaluation",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm start",
+    "lint": "cd frontend && npm run lint"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
