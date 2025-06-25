@@ -61,4 +61,10 @@ jspm_packages/
 
 # Backend files (since we're only deploying frontend)
 backend/
-uploads/ 
+uploads/
+frontend/
+Images/
+
+# Git files
+.git/
+.gitignore 
